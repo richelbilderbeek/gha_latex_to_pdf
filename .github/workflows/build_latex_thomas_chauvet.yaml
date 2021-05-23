@@ -1,8 +1,10 @@
 on:
   push:
   pull_request:
+  schedule:
+  - cron: "0 0 1 * *"
 
-name: Build LaTeX document
+name: Build LaTeX document using thomas-chauvet's Action
 
 jobs:
   build_latex:
