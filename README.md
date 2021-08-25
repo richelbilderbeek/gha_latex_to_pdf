@@ -6,3 +6,4 @@
 
 GitHub Actions example to convert a LaTeX text to PDF.
 
+
