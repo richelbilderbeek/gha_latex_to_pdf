@@ -27,4 +27,4 @@ jobs:
         with:
           name: thomas_chauvet_pdf
           path: article.pdf
-
+          if-no-files-found: error

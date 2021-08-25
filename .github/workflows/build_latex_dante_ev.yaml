@@ -26,4 +26,5 @@ jobs:
         with:
           name: dante_ev_pdf
           path: article.pdf
+          if-no-files-found: error
 
