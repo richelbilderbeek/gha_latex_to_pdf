@@ -20,7 +20,7 @@ jobs:
         uses: thomas-chauvet/latex2pdf-action@1.0.3
         with:
           output_dir: .
-          ctan_packages: amssymb latexsym amsmath
+          ctan_packages: amssymb latexsym amsmath pgf
           main_latex_file: article.tex
 
       - name: Upload PDF to the workflow tab
